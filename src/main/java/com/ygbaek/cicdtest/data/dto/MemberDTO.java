@@ -1,4 +1,4 @@
-package com.ygbaek.cicdtest.dto;
+package com.ygbaek.cicdtest.data.dto;
 
 public class MemberDTO{
     private String name;
