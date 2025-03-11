@@ -47,5 +47,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/springboottest:0.1.5 .
-          docker push ${{ secrets.DOCKER_HUB_USERNAME }}/springboottest:0.1.5
+          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/springboottest:0.1.6 .
+          docker push ${{ secrets.DOCKER_HUB_USERNAME }}/springboottest:0.1.6
